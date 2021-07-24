@@ -14,13 +14,7 @@ header{
     height: 60px;
     width: 95%;	
 }
-.welcome{
-    margin: 0 auto;
-    height: 100vh;
-    background-image: url(../src/img/Vector_2677.jpg)  ;
-    border-bottom: 30px solid black;
 
-}
 
 .button{
     font-size: 15px;
