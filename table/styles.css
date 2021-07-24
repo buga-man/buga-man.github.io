@@ -6,14 +6,37 @@ img{
     width: 100px;
     
 }
-nav {
- position: absolute;
+header{
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 60px;
-    width: 95%;	   
+    width: 95%;	
 }
+.welcome{
+    margin: 0 auto;
+    height: 100vh;
+    background-image: url(../src/img/Vector_2677.jpg)  ;
+    border-bottom: 30px solid black;
+
+}
+
+.button{
+    font-size: 15px;
+    margin-top: 30px;
+    text-align: center;
+    margin-right: 10px;
+    padding: 15px 20px;
+    border-radius: 25px;
+    background-color: #D4B483;
+    text-decoration: none;
+    color: black
+}
+.button:hover{
+    background-color: whitesmoke;
+}
+
 img:hover{
     border: 1px;
     border-radius: 25%;
