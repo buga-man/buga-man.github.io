@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
 
-
+body{
+    font-family: 'Otomanopee One', serif;
+    text-align: center;
+     width: 1200px;
+     margin:0 auto;
+     background-color: #EAEAEA;
+ }
 img{
     max-height: 100%;
     width: 100px;
@@ -42,13 +48,7 @@ td {
     padding: 10px;
 }
 
-body{
-    font-family: 'Otomanopee One', serif;
-    text-align: center;
-     width: 1200px;
-     margin:0 auto;
-     background-color: #EAEAEA;
- }
+
  .afisha table {
      margin: 0 auto;
  }
