@@ -12,13 +12,13 @@ img{
     width: 100px;
     
 }
-header{
+nav{
     position: absolute;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 60px;
-    width: 95%;	
+    width: 90%;	
 }
 
 
