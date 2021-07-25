@@ -93,6 +93,7 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
+    gap: 20px;
 
 }
 .first-projects a{
