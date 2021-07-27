@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 11px;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  opacity: 0.9;
+  background-color: #000;
+  width: 100%;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+  color: #fff5ee;
+}
+
+h4 {
+  font-size: 2.4rem;
+  color: #fff5ee;
+}
+
+h5 {
+  font-size: 2rem;
+  color: #fff5ee;
+  text-align: center;
+  line-height: 2.5;
+}
+
+h3 {
+  font-size: 2.2rem;
+  color: #fff5ee;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1rem 1rem;
+  width: 100%;
+  background-color: #000;
+  height: 6.9rem;
+  border-bottom: 1px solid #fff5ee;
+}
+.header .nav-img {
+  height: 5rem;
+}
+
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  list-style: none;
+}
+
+.nav-menu li a {
+  color: #fff5ee;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.section-mission {
+  background-image: url(../img/img-mission-background.webp);
+  background-size: cover;
+  width: 120rem;
+  height: 70rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission {
+  width: 100%;
+  background-color: #000;
+  color: #fff5ee;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  margin: 1rem 0;
+}
+
+.mission h2 {
+  padding-bottom: 5px;
+}
+
+.tea-of-month {
+  width: 1000px;
+  text-align: center;
+  color: #fff5ee;
+  margin: 0 auto;
+}
+
+.tea-of-month h2 {
+  margin: 15px 0;
+}
+
+.tea-of-month h3 {
+  margin-bottom: 30px;
+}
+
+.tea-of-month img {
+  width: 30rem;
+  height: 20rem;
+}
+
+.flex-img-month {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.flex-img-month figcaption {
+  margin-top: 0.6rem;
+  font-size: 2rem;
+}
+
+.locations {
+  margin: 3rem auto;
+  width: 120rem;
+  height: 50rem;
+  background-image: url(../img/img-locations-background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.locations h2 {
+  color: #fff5ee;
+  text-align: center;
+  padding-top: 8rem;
+}
+
+.flex-locations {
+  margin-top: 2.5rem;
+  color: #fff5ee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.location {
+  width: 30rem;
+  background-color: #000;
+}
+
+.location h3 {
+  font-size: 2.4rem;
+  line-height: 3;
+}
+
+.location p {
+  font-size: 2.2rem;
+  line-height: 3;
+}
+
+footer h2 {
+  text-align: center;
+}
+
+.footer-container {
+  height: 20rem;
+}
+
+.footer-last-information {
+  color: #fff5ee;
+  font-size: 2rem;
+  margin: 2rem 2rem;
+  font-weight: bold;
+  text-align: left;
+}
